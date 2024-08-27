@@ -1,0 +1,14 @@
+### Primeiro Request
+GET http://localhost:3030/Payment
+Accept: */*
+x-correlation-id: ec50e50c-857e-4020-9af1-5bf90f72322b
+
+### Segundo Request
+POST http://localhost:3030/Payment
+Accept: */*
+Content-Type: application/json
+x-correlation-id: ec50e50c-857e-4020-9af1-5bf90f72322b
+
+{
+  "method": 1
+}
