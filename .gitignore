@@ -1,0 +1,70 @@
+# Visual Studio e arquivos de build
+.vscode/
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Arquivos de pacotes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Logs e arquivos temporários
+*.log
+*.tlog
+*.out
+*.err
+*.ide
+*.cache
+
+# Arquivos de publicação
+publish/
+app.publish/
+
+# Configurações de ambiente e backup
+.env
+.env.*.local
+*.local.settings.json
+.DS_Store
+
+# Configuração de Containers
+docker-compose*
+docker-compose.*.yml
+.docker/
+
+# Arquivos gerados por testadores
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Arquivos temporários de IDE
+.idea/
+.idea_modules/
+.vscode/
+*.iml
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Azure Functions local settings
+local.settings.json
+
+# Arquivos de build de Mac
+.DS_Store
+*.app
+
+# Certificados locais
+*.pfx
+*.p12
